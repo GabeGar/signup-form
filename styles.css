@@ -9,11 +9,8 @@
 
 /* *Image Styles */
 
-.aside {
-    position: relative;
-}
-
 .background_image_container {
+    position: relative;
     width: 800px;
     height: 100vh;
 }
