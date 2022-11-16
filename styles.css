@@ -89,9 +89,13 @@ body {
 }
 
 .form_field_wrapper {
-    padding: 25px 0;
+    padding: 25px 0 10px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.form_field {
+    margin-bottom: 10px;
 }
 
 input {
@@ -100,4 +104,29 @@ input {
 
 label {
     font-size: 1rem;
+}
+
+/* *Footer Styles */
+
+.main_footer {
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+
+/* *Button Styles */
+
+.form_button {
+    padding: 0.5rem 2.5rem;
+    color: #fff;
+    background-image: linear-gradient(to right, #217fd2, #2171b6);
+    border-radius: 10px;
+}
+
+.footer_para {
+    margin-top: 2rem;
+}
+
+.footer_para a {
+    color: #217fd2;
+    text-decoration: none;
 }
