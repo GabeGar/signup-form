@@ -29,11 +29,26 @@ body {
     height: 100%;
 }
 
+.image_credit {
+    color: #fff;
+    position: absolute;
+    bottom: 1%;
+    right: 42%;
+}
+
+.image_credit a {
+    color: #fff;
+}
+
 .foreground_image_container {
     position: absolute;
     width: 150px;
     top: 5%;
-    left: 5%;
+    left: 9%;
+}
+
+.foreground_image_container img {
+    width: 100%;
 }
 
 .foreground_image_container img+span::before {
@@ -42,7 +57,7 @@ body {
     font-family: 'Norse';
     font-size: 9.5rem;
     top: 8%;
-    left: 115s%;
+    left: 115%;
     background-image: linear-gradient(to bottom, white 25%, red, blue, green);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -51,27 +66,29 @@ body {
     -moz-text-fill-color: transparent;
 }
 
-.foreground_image_container img {
-    width: 100%;
-}
 
 /* *Main Content Styles */
 
 .main_content {
-    padding: 2.5rem;
+    margin-left: 2.5rem;
 }
 
-.signup_text {
-    border: 2px solid black;
-}
 
 .para {
-    font-size: 1.75rem;
+    font-size: 1.7rem;
     font-weight: 600;
     margin: 3rem auto;
 }
 
-form {
-    width: 100%;
-    background-color: black;
+
+/* *Form Styles */
+
+.form_body {
+    font-size: 1.7rem;
+    padding: 1.5rem 0;
+    background-color: #f0f1ff;
+}
+
+.form_body>h2 {
+    font-size: 2rem;
 }
