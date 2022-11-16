@@ -69,26 +69,35 @@ body {
 
 /* *Main Content Styles */
 
-.main_content {
-    margin-left: 2.5rem;
-}
-
-
 .para {
     font-size: 1.7rem;
     font-weight: 600;
-    margin: 3rem auto;
+    margin: 3rem;
 }
 
 
 /* *Form Styles */
 
 .form_body {
-    font-size: 1.7rem;
-    padding: 1.5rem 0;
-    background-color: #f0f1ff;
+    font-size: 1.25rem;
+    padding: 3rem;
+    background-color: #ebecff;
 }
 
 .form_body>h2 {
     font-size: 2rem;
+}
+
+.form_field_wrapper {
+    padding: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+input {
+    display: block;
+}
+
+label {
+    font-size: 1rem;
 }
