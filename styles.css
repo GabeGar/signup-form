@@ -1,0 +1,45 @@
+/* *Basic CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 120%
+}
+
+/* *Image Styles */
+
+.aside {
+    position: relative;
+}
+
+.background_image_container {
+    width: 800px;
+    height: 100vh;
+}
+
+.background_image_container img {
+    width: 100%;
+    height: 100%;
+}
+
+.foreground_image_container {
+    position: absolute;
+    width: 150px;
+    top: 5%;
+    left: 5%;
+}
+
+.foreground_image_container img+span::before {
+    position: absolute;
+    content: "Odin";
+    font-family: 'Norse';
+    font-size: 9.5rem;
+    top: 8%;
+    left: 120%;
+    color: #fff;
+}
+
+.foreground_image_container img {
+    width: 100%;
+}
