@@ -1,6 +1,14 @@
 /* *Basic CSS Reset & Styles */
 
-@import url(//db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse);
+@font-face {
+    font-family: "Norse";
+    src: url("//db.onlinewebfonts.com/t/fd1ad3a0f95210975d2f5607501020b5.eot");
+    src: url("//db.onlinewebfonts.com/t/fd1ad3a0f95210975d2f5607501020b5.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/fd1ad3a0f95210975d2f5607501020b5.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/fd1ad3a0f95210975d2f5607501020b5.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/fd1ad3a0f95210975d2f5607501020b5.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/fd1ad3a0f95210975d2f5607501020b5.svg#Norse") format("svg");
+}
 
 :root {
     --error-outline: 1px solid #c93131;
@@ -75,6 +83,7 @@ body {
     content: "Odin";
     font-family: var(--foreground-img-font);
     font-size: 9.5rem;
+    font-weight: bold;
     top: 8%;
     left: 115%;
     color: var(--white-color);
