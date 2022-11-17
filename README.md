@@ -18,7 +18,7 @@ https://www.theodinproject.com/
 
 Image(s):
 
-1. Christmas Background - Roberto Nickson @ https://unsplash.com/
+1. Christmas Background - Roberto Nickson @ https://unsplash.com/@rpnickson
    Link: https://unsplash.com/photos/5PQn41LFsQk
 
 2. Odin Logo - The Odin Project @ https://www.theodinproject.com/
