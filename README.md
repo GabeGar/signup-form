@@ -1,16 +1,18 @@
 # signup-form
 
 **_Goal_**:
-A website, sign-up form project, created for The Odin Project curriculum.
+A sign-up form page project, created for The Odin Project's, curriculum.
 https://www.theodinproject.com/
 
-**_Skills learned and applied_**:
+**_Skills learned/applied_**:
 
 1. Creating forms & their respective elements
 
 2. Pseudo-classes & Pseudo-elements
 
 3. Form Validation
+
+4. CSS Variable Declaration and usage
 
 **_Project Credits_**
 
