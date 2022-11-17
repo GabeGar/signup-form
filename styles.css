@@ -131,6 +131,24 @@ input:optional {
     border: 1px solid #dcdff9;
 }
 
+input[type="text"]:invalid:focus,
+input[type="email"]:invalid:focus,
+input[type="tel"]:invalid:focus,
+input[type="password"]:invalid:focus {
+    outline: 1px solid #c93131;
+}
+
+input[type="text"]:valid:focus,
+input[type="email"]:valid:focus,
+input[type="tel"]:valid:focus,
+input[type="password"]:valid:focus {
+    outline: 1px solid #4545f5;
+}
+
+
+input[type="password"].error:invalid:focus {
+    outline: 1px solid #c93131;
+}
 
 /* *Footer Styles */
 
