@@ -1,5 +1,7 @@
 /* *Basic CSS Reset & Styles */
 
+@import url(//db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse);
+
 :root {
     --error-outline: 1px solid #c93131;
     --validation-outline: 1px solid #4545f5;
