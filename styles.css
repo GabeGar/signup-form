@@ -1,5 +1,12 @@
 /* *Basic CSS Reset & Styles */
 
+:root {
+    --error-outline: 1px solid #c93131;
+    --validation-outline: 1px solid #4545f5;
+    --img-credit-color: #fff;
+    --foreground-img-font: 'Norse';
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,14 +38,14 @@ body {
 }
 
 .image_credit {
-    color: #fff;
+    color: var(--img-credit-color);
     position: absolute;
     bottom: 1%;
     right: 42%;
 }
 
 .image_credit a {
-    color: #fff;
+    color: var(--img-credit-color);
 }
 
 .foreground_opacity {
@@ -64,7 +71,7 @@ body {
 .foreground_image_container img+span::before {
     position: absolute;
     content: "Odin";
-    font-family: 'Norse';
+    font-family: var(--foreground-img-font);
     font-size: 9.5rem;
     top: 8%;
     left: 115%;
@@ -135,20 +142,16 @@ input[type="text"]:invalid:focus,
 input[type="email"]:invalid:focus,
 input[type="tel"]:invalid:focus,
 input[type="password"]:invalid:focus {
-    outline: 1px solid #c93131;
+    outline: var(--error-outline)
 }
 
 input[type="text"]:valid:focus,
 input[type="email"]:valid:focus,
 input[type="tel"]:valid:focus,
 input[type="password"]:valid:focus {
-    outline: 1px solid #4545f5;
+    outline: var(--validation-outline)
 }
 
-
-input[type="password"].error:invalid:focus {
-    outline: 1px solid #c93131;
-}
 
 /* *Footer Styles */
 
