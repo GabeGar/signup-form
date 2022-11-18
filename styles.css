@@ -162,13 +162,6 @@ input[type="password"]:valid:focus {
     outline: var(--error-outline);
 }
 
-/* *Footer Styles */
-
-.footer {
-    margin-top: 3rem;
-    margin-left: 3rem;
-}
-
 /* *Button Styles */
 
 .form_button {
@@ -183,6 +176,13 @@ input[type="password"]:valid:focus {
     transition: all 0.15s ease-in-out;
     transform: translate(2px, -2px);
     box-shadow: 3px 3px #c0c0c0;
+}
+
+/* *Footer Styles */
+
+.footer {
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 .footer_para {
