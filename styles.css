@@ -83,7 +83,7 @@ body {
 .right_side {
     width: 60vw;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 
 .para {
