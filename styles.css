@@ -81,9 +81,9 @@ body {
 /* *Main Content Styles */
 
 .right_side {
-    width: 60vw;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
+    width: 60vw;
 }
 
 .para {
@@ -165,7 +165,7 @@ input[type="password"]:valid:focus {
 /* *Footer Styles */
 
 .footer {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     margin-left: 3rem;
 }
 
