@@ -4,7 +4,11 @@ const error = document.querySelector(".error-field");
 const createAccBtn = document.querySelector(".form_button");
 
 function compareInputs() {
-    if (password.value !== confirmation.value) {
+    if (
+        password.value !== confirmation.value &&
+        password.value.length >= 8 &&
+        confirmation.value.length >= 8
+    ) {
         error.classList.add("error");
         password.classList.add("error_outline");
         confirmation.classList.add("error_outline");
