@@ -11,8 +11,8 @@
 }
 
 :root {
-    --error-outline: 1px solid #c93131;
-    --validation-outline: 1px solid #4545f5;
+    --error-outline: 2px solid #c93131;
+    --validation-outline: 2px solid #4545f5;
     --white-color: #fff;
     --foreground-img-font: 'Norse';
 }
