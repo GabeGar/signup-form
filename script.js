@@ -1,16 +1,19 @@
 const password = document.querySelector("#password");
 const confirmation = document.querySelector("#pass_confirm");
 const error = document.querySelector(".error-field");
+const createAccBtn = document.querySelector(".form_button");
 
 function compareInputs() {
     if (password.value !== confirmation.value) {
         error.classList.add("error");
         password.classList.add("error_outline");
         confirmation.classList.add("error_outline");
+        createAccBtn.setAttribute("disabled", "disabled");
     } else if (password.value === confirmation.value) {
         error.classList.remove("error");
         password.classList.remove("error_outline");
         confirmation.classList.remove("error_outline");
+        createAccBtn.removeAttribute("disabled");
     }
 }
 
