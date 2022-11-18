@@ -70,8 +70,7 @@ body {
 
 .image_credit {
     position: relative;
-    top: 98vh;
-    left: 12vw;
+    text-align: center;
 }
 
 .image_credit,
