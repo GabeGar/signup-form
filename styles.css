@@ -89,7 +89,6 @@ body {
     color: var(--white-color);
 }
 
-
 /* *Main Content Styles */
 
 .para {
@@ -97,7 +96,6 @@ body {
     font-weight: 600;
     margin: 3rem;
 }
-
 
 /* *Form Styles */
 
@@ -129,7 +127,6 @@ body {
 label {
     font-size: 1rem;
 }
-
 
 /* *Form Validation Styles */
 
@@ -170,14 +167,12 @@ input[type="password"]:valid:focus {
     outline: var(--error-outline);
 }
 
-
 /* *Footer Styles */
 
 .footer {
     margin-top: 2.5rem;
     margin-left: 3rem;
 }
-
 
 /* *Button Styles */
 
