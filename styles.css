@@ -160,6 +160,16 @@ input[type="password"]:valid:focus {
     outline: var(--validation-outline);
 }
 
+.error::after {
+    content: '* Passwords do not match';
+    font-size: 14px;
+    color: #c93131;
+}
+
+.error_outline {
+    outline: var(--error-outline);
+}
+
 
 /* *Footer Styles */
 

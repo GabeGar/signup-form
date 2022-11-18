@@ -1,23 +1,18 @@
-const createAccBtn = document.querySelector(".form_button");
+const password = document.querySelector("#password");
+const confirmation = document.querySelector("#pass_confirm");
+const error = document.querySelector(".error-field");
 
-function confirmPasswordMatch(e) {
-    const passfield = document.querySelector("#password");
-    const confirmfield = document.querySelector("#pass_confirm");
-    const validationInfo = document.querySelector(".validation_info");
-
-    if (passfield.value !== confirmfield.value) {
-        e.preventDefault();
-
-        validationInfo.setAttribute(
-            "style",
-            "color: #c93131; font-size: 14px; margin: 0;"
-        );
-        validationInfo.textContent = "* Passwords do not match";
-    }
-
-    if (passfield.value === confirmfield.value) {
-        validationInfo.textContent = "";
+function compareInputs() {
+    if (password.value !== confirmation.value) {
+        error.classList.add("error");
+        password.classList.add("error_outline");
+        confirmation.classList.add("error_outline");
+    } else if (password.value === confirmation.value) {
+        error.classList.remove("error");
+        password.classList.remove("error_outline");
+        confirmation.classList.remove("error_outline");
     }
 }
 
-createAccBtn.addEventListener("click", confirmPasswordMatch);
+password.addEventListener("input", compareInputs);
+confirmation.addEventListener("input", compareInputs);
