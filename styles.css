@@ -15,6 +15,7 @@
     --validation-outline: 2px solid #4545f5;
     --white-color: #fff;
     --foreground-img-font: 'Norse';
+    --outline-shadow: 3px 3px 3px 3px #c0c0c0;
 }
 
 * {
@@ -147,20 +148,22 @@ input[type="text"]:invalid:focus,
 input[type="email"]:invalid:focus,
 input[type="tel"]:invalid:focus,
 input[type="password"]:invalid:focus {
-    outline: var(--error-outline)
+    box-shadow: var(--outline-shadow);
+    outline: var(--error-outline);
 }
 
 input[type="text"]:valid:focus,
 input[type="email"]:valid:focus,
 input[type="tel"]:valid:focus,
 input[type="password"]:valid:focus {
-    outline: var(--validation-outline)
+    box-shadow: var(--outline-shadow);
+    outline: var(--validation-outline);
 }
 
 
 /* *Footer Styles */
 
-.main_footer {
+.footer {
     margin-top: 2.5rem;
     margin-left: 3rem;
 }
