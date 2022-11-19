@@ -42,8 +42,8 @@ body {
     background-image: url("https://images.unsplash.com/photo-1529973625058-a665431328fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2400&q=80");
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
-    width: 40vw;
+    background-size: auto 100%;
+    width: 30vw;
     height: 100vh;
 }
 
@@ -82,14 +82,16 @@ body {
 
 .right_side {
     display: flex;
-    flex-flow: column wrap;
-    width: 60vw;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 70vw;
 }
 
 .para {
     font-size: 1.7rem;
     font-weight: 600;
-    margin: 3rem;
+    margin-left: 3rem;
+    padding-bottom: 2rem;
 }
 
 /* *Form Styles */
@@ -112,11 +114,7 @@ body {
 }
 
 .form_field {
-    margin-bottom: 15px;
-}
-
-.form_field:nth-child(n+4) {
-    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 label {
@@ -181,12 +179,12 @@ input[type="password"]:valid:focus {
 /* *Footer Styles */
 
 .footer {
-    margin-top: 3rem;
+    padding-top: 2rem;
     margin-left: 3rem;
 }
 
 .footer_para {
-    margin-top: 2rem;
+    padding-top: 1rem;
 }
 
 .footer_para a {
