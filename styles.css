@@ -53,6 +53,7 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     position: relative;
     top: 5vh;
+    height: auto;
     justify-content: center;
     align-items: center;
 }
@@ -63,7 +64,7 @@ body {
 
 .logo_text {
     color: var(--white-color);
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: 'Norse';
     font-weight: 900;
 }
@@ -78,7 +79,7 @@ body {
     color: var(--white-color);
 }
 
-/* *Main Content Styles */
+/* *Right Side Styles */
 
 .right_side {
     display: flex;
